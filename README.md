@@ -27,10 +27,13 @@ Hỗ trợ đọc biển số từ ảnh và webcam realtime.
 ## 📦 Cài đặt môi trường
 ### 1️⃣ Tạo môi trường ảo
 python -m venv .venv
-####2️⃣ Kích hoạt môi trường
+
+2️⃣ Kích hoạt môi trường
 Windows
 .venv\Scripts\activate
-#####3️⃣ Cài thư viện
+
+3️⃣ Cài thư viện
 pip install -r requirements.txt
-######▶️ Chạy chương trình
+
+▶️ Chạy chương trình
 python main.py
