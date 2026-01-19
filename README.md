@@ -26,7 +26,7 @@ Hỗ trợ đọc biển số từ ảnh và webcam realtime.
 
 ## 📦 Cài đặt môi trường
 
-### 1️⃣ Tạo môi trường ảo
+1️⃣ Tạo môi trường ảo
 ```bash
 python -m venv .venv
 2️⃣ Kích hoạt môi trường
