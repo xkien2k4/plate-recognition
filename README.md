@@ -32,8 +32,6 @@ python -m venv .venv
 Windows
 .venv\Scripts\activate
 
-3️⃣ Cài thư viện
-pip install -r requirements.txt
+3️⃣ Cài thư viện pip install -r requirements.txt
 
-▶️ Chạy chương trình
-python main.py
+▶️ Chạy chương trình python main.py
