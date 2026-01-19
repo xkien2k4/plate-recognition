@@ -24,22 +24,14 @@ Hỗ trợ đọc biển số từ ảnh và webcam realtime.
 
 ---
 
-## 📦 Cài đặt môi trường
-
-1️⃣ Tạo môi trường ảo
+## 📦 Cài đặt 
 ```bash
+1️⃣ Tạo môi trường ảo
 python -m venv .venv
 2️⃣ Kích hoạt môi trường
 Windows
-
-bash
-Sao chép mã
 .venv\Scripts\activate
 3️⃣ Cài thư viện
-bash
-Sao chép mã
 pip install -r requirements.txt
 ▶️ Chạy chương trình
-bash
-Sao chép mã
 python main.py
