@@ -16,14 +16,14 @@ class LicensePlateRecognitionApp:
         self.file_button = tk.Button(master, text=" 📂 Nhận dạng từ tệp tin", command=self.select_file)
         self.file_button.pack(pady=10)
 
-        self.webcam_button = tk.Button(master, text=" 📸 Mở Camera", command=self.open_webcam)
+        self.webcam_button = tk.Button(master, text=" 📸 BậtBật Camera", command=self.open_webcam)
         self.webcam_button.pack(pady=10)
 
         self.plate_type = tk.StringVar(value="single")  
         tk.Label(master, text="Chọn kiểu biển số xe:").pack(pady=5)
-        self.single_row_radio = tk.Radiobutton(master, text="Hàng đơn", variable=self.plate_type, value="single")
+        self.single_row_radio = tk.Radiobutton(master, text="Hàng 1", variable=self.plate_type, value="single")
         self.single_row_radio.pack()
-        self.double_row_radio = tk.Radiobutton(master, text="Hàng đôi", variable=self.plate_type, value="double")
+        self.double_row_radio = tk.Radiobutton(master, text="Hàng 2", variable=self.plate_type, value="double")
         self.double_row_radio.pack()
 
         self.canvas = tk.Canvas(master, width=400, height=440, bg="white")
