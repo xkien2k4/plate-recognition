@@ -16,7 +16,7 @@ class LicensePlateRecognitionApp:
         self.file_button = tk.Button(master, text=" 📂 Nhận dạng từ tệp tin", command=self.select_file)
         self.file_button.pack(pady=10)
 
-        self.webcam_button = tk.Button(master, text=" 📸 BậtBật Camera", command=self.open_webcam)
+        self.webcam_button = tk.Button(master, text=" 📸 Bật Camera", command=self.open_webcam)
         self.webcam_button.pack(pady=10)
 
         self.plate_type = tk.StringVar(value="single")  
